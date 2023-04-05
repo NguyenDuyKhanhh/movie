@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./grid.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&family=Roboto+Flex:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+</head>
+<body> 
+    <div class="overlay"></div>
+        <div class="header grid wide">
+                <img src="https://o.remove.bg/downloads/8113da8b-dbe8-4eec-b844-948cf20559d2/22-removebg-preview.png" alt="">
+            <div class="search">
+                <input type="text" name="" id="input-search" placeholder="Search movie">
+                <button class="btn-search"><i class='bx bx-search'></i></button>
+            </div>
+
+        </div>
+    <div class="navbar">
+        <ul>
+            <li>            
+                <a href="./home.html">
+                    <i class='bx bx-home'></i>
+                    Home
+                </a>
+            </li>
+            <li>             
+                <a href="#">
+                    <i class='bx bxs-hot' ></i>
+                    Trending
+                </a>
+            </li>
+            <li>               
+                <a href="#">
+                    <i class='bx bx-movie-play' ></i>
+                    Movies
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-heart' ></i>
+                    Favourite
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="play-page grid wide">
+        <div class="row">
+            <div class="reference">
+                <div class="col l-4">
+                    <img src="https://image.tmdb.org/t/p/w500//t6HIqrRAclMCA60NsSmeqe9RmNV.jpg" alt="">
+                </div>
+                <div class="col l-8">
+                    <h1><span>Avatar: The Way of Water</span></h1>
+                    <p>Status: Movie</p>
+                    <h2>language: English</h2>
+                    <h3>Overview:Set more than a decade after the events of the first film, learn the story of the Sully family (Jake, Neytiri, and their kids), the trouble that follows them, the lengths they go to keep each other safe, the battles they fight to stay alive, and the tragedies they endure.</h3>
+                    <h4>Release date: 2022-12-14</h4>
+                    <small>Vote average 7.75</small>
+                    <div class="row">
+                        <div class="col l-6">
+                            <button>Xem phim</button>
+                        </div>
+                        <div class="col l-6">
+                            <button>Xem phim</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/babel" src="./main.js"></script>
+</body>
+</html>
